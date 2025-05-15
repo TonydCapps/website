@@ -1,0 +1,70 @@
+/* === Background and Layout === */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://images.unsplash.com/photo-1605902711622-cfb43c4437e1?auto=format&fit=crop&w=1200&q=80') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+/* === Overlay for readability === */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 2em auto;
+    padding: 2em;
+    max-width: 900px;
+    border-radius: 12px;
+}
+
+/* === Header and Titles === */
+#main-title {
+    font-size: 2rem;
+    color: #4ecdc4;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+/* === Ideas List === */
+.idea-heading {
+    font-size: 1.5rem;
+    margin-top: 1em;
+}
+
+.idea-list {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1em;
+    margin: 1em 0;
+    border: 2px dashed #fff;
+    border-radius: 8px;
+}
+
+/* === Columns === */
+.columns {
+    display: flex;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.column {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* === Links and Footer === */
+a {
+    color: #ffd700;
+}
+
+a:hover {
+    color: #ff69b4;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    color: #ddd;
+    font-size: 0.9rem;
+}
