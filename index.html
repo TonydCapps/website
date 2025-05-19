@@ -9,6 +9,7 @@
 <body>
     <main>
         <div class="overlay">
+            <button id="toggle-mode">Toggle Dark Mode</button>
             <h1 id="main-title">Welcome to My Random Ideas Page</h1>
             <p>This website serves as a digital notebook for my entrepreneurial and cybersecurity ideas. It's a space where creativity meets strategy, and raw concepts are refined into potential ventures.</p>
 
@@ -37,5 +38,11 @@
     <footer>
         <p>&copy; 2025 Tony Capps</p>
     </footer>
+<script>
+const toggleBtn = document.getElementById("toggle-mode");
+toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("light-mode");
+});
+</script>
 </body>
 </html>
