@@ -1,4 +1,4 @@
-/* === General Body Background === */
+/*General Background*/
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -6,7 +6,7 @@ body {
     color: #e0f7fa;
 }
 
-/* === Overlay Background for Contrast === */
+/*Overlay Background*/
 .overlay {
     background-color: rgba(0, 15, 25, 0.75);
     margin: 2em auto;
@@ -16,13 +16,13 @@ body {
     box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
 }
 
-/* === Main Content Padding/Margins === */
+/*Main Padding and Margins*/
 main {
     padding: 1.5em;
     margin: 1.5em;
 }
 
-/* === Title Styling === */
+/*Styling for title*/
 #main-title {
     font-size: 2.4rem;
     color: #00e5ff;
@@ -30,7 +30,7 @@ main {
     margin-bottom: 1em;
 }
 
-/* === Idea List Section === */
+/*Ideas*/
 .idea-heading {
     font-size: 1.7rem;
     margin-top: 1em;
@@ -50,7 +50,7 @@ main {
     padding-left: 0.75em;
 }
 
-/* === Columns Styling === */
+/*Columns*/
 .columns {
     display: flex;
     gap: 1.5em;
@@ -75,7 +75,7 @@ main {
     line-height: 1.6;
 }
 
-/* === Links === */
+/*Links*/
 a {
     color: #4dd0e1;
     text-decoration: none;
@@ -85,7 +85,7 @@ a:hover {
     color: #b2ebf2;
 }
 
-/* === Footer Styling === */
+/*Footer*/
 footer {
     text-align: center;
     padding: 1em;
@@ -93,7 +93,7 @@ footer {
     font-size: 0.9rem;
     margin-top: 2em;
 }
-/* === Light Mode Overrides === */
+/*Light Mode*/
 body.light-mode {
     background: linear-gradient(to bottom, #f0f0f0, #ffffff);
     color: #222;
@@ -124,7 +124,7 @@ body.light-mode footer {
     color: #444;
 }
 
-/* Button Style */
+/*Buttons*/
 #toggle-mode {
     background-color: #4dd0e1;
     color: #000;

@@ -6,3 +6,4 @@ made style.css file
 made images folder
     added image file to folder
     updated index.html img source link for added image folder
+added toggle light and dark mode
