@@ -1,12 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Ideas Homepage</title>
-    <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
+<!DOCTYPE html><html lang="en">
+<head><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideas Homepage</title> 
+    <link rel="stylesheet" href="styles.css"/> 
+</head> 
+<body> 
+    <!--Navigtion Menu --> 
+    <nav class="main-nav"> 
+        <ul> 
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="ideas.html">Ideas</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+    </ul></nav>
     <main>
         <div class="overlay">
             <button id="toggle-mode">Toggle Dark Mode</button>
@@ -14,7 +28,7 @@
             <p>This website serves as a digital notebook for my entrepreneurial and cybersecurity ideas. It's a space where creativity meets strategy, and raw concepts are refined into potential ventures.</p>
 
             <h2 class="idea-heading">Business Ideas</h2>
-            <ul class="idea-list">
+               <ul class="idea-list">
                 <li>
                     <strong>Penetration Testing Services</strong> – Helping small businesses identify and fix their digital vulnerabilities using industry-standard tools and ethical hacking practices. Ideal for startups with limited security budgets.
                 </li>
@@ -29,9 +43,11 @@
             <section>
                 <h2>Why Cybersecurity?</h2>
                 <p>Technology is everywhere, and so are digital threats. I believe that understanding cybersecurity isn't just for experts—it's a necessity for anyone living in the digital age. My goal is to make security knowledge more accessible and useful for everyone.</p>
+            <!-- Scalable image -->
+            <img src="images/cybersecurity.jpg" alt="Cybersecurity concepts" class="scalable-image">
             </section>
 
-            <p><a href="ideas.html">Visit the 3-Column Ideas Page</a></p>
+            <p><a href="ideas.html">Visit the 3-Column Ideas Page</a> or <a href="#why-cybersecurity">jump to Why Cybersecurity section</a></p>
         </div>
     </main>
 
@@ -39,10 +55,10 @@
         <p>&copy; 2025 Tony Capps</p>
     </footer>
 <script>
-const toggleBtn = document.getElementById("toggle-mode");
-toggleBtn.addEventListener("click", () => {
-    document.body.classList.toggle("light-mode");
-});
+    const toggleBtn = document.getElementById("toggle-mode");
+    toggleBtn.addEventListener("click", () => {
+        document.body.classList.toggle("light-mode");
+    });
 </script>
 </body>
 </html>
